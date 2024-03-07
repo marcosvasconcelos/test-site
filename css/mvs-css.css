@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #15202b;
+  color: #fff;
+}
+
+header {
+  background-color: #1f2935;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+section {
+  text-align: center;
+  padding: 50px;
+}
+
+#product-ops {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.product-ops-item {
+  width: calc(45% - 10px);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #1f2935;
+  border-radius: 4px;
+}
+
+.product-ops-item img {
+  width: 100%;
+  height: auto;
+  max-width: 300px; 
+  margin-bottom: 10px;
+}
+
+#team-mvs {
+  text-align: center;
+  padding: 50px;
+}
+
+.team-eng {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.team-eng img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#contact-mvs {
+  background-color: #1f2935;
+  text-align: center;
+  padding: 50px;
+}
+
+#contact-mvs h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#contact-mvs form {
+  text-align: center;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 400px; /* Define a largura máxima do formulário */
+}
+
+#contact-mvs label,
+#contact-mvs input[type="submit"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #1f2935;
+  text-align: center;
+  padding: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4299e1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #3182ce;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MVS Engenharia de Sistema</title>
+  <link rel="stylesheet" type="text/css" href="css/mvs-css.css">
+</head>
+<body>
+  <header>
+    <h1>MVS Engenharia de Sistemas</h1>
+    <p>Bem-vindo à MVS Engenharia de Sistemas!</p>
+  </header>
+
+  <section>
+    <h2>Quem somos</h2>
+    <p>A MVS Engenharia de Sistemas ajuda empresas que possuem sua operação de Tecnologia internalizada ou terceirizada a reduzir seus custos operacionais e o downtime impactando a gestão de tecnologia e financeira dos clientes.</p>
+  </section>
+
+  <section id="product-ops">
+    <div class="product-ops-item">
+      <h2>System Ops Tool</h2>
+      <img src="images/produto1.jpg" alt="System Ops Tool">
+      <p>Ferramenta que auxilia o time de operações L1/L2 a reduzir o tempo de atuação em ambientes on-premisse e cloud.</p>
+      <a href="#contact-mvs" class="cta-button">Saiba Mais</a>
+    </div>
+    <div class="product-ops-item">
+      <h2>Web Automation Tool</h2>
+      <img src="images/produto2.jpg" alt="Web Automation Tool">
+      <p>Web automation Tool, é uma ferramenta de automação que é integrada ao System Ops Tool, fornecendo uma interface de API para integrar com ferramentas de monitoração a fim de executar ações corriqueiras do engenheiros para sanar eventos e incidentes nos ambientes de middleware, banco de dados, kubernetes e outros.</p>
+      <a href="#contact-mvs" class="cta-button">Saiba Mais</a>
+    </div>
+  </section>
+
+  <section id="team-mvs">
+    <h2>Equipe de Engenharia</h2>
+    <div class="team-eng">
+      <img src="images/person/pessoa1.jpg" alt="Foto Membro 1">
+      <h3>Lois Lane</h3>
+      <p>Cargo: CEO</p>
+    </div>
+    <div class="team-eng">
+      <img src="images/person/pessoa2.jpg" alt="Foto Membro 2">
+      <h3>Clark Kent</h3>
+      <p>Cargo: Engenharo de Sistemas</p>
+    </div>
+    <div class="team-eng">
+      <img src="images/person/pessoa3.jpg" alt="Foto Membro 3">
+      <h3>Kara Zol-El</h3>
+      <p>Cargo: Gerente de Engenharia</p>
+    </div>
+  </section>
+
+  <section id="contact-mvs">
+    <h2>Entre em contato</h2>
+    <!-- Modificação aqui para incluir o evento na chamada da função -->
+    <form action="#" method="post" onsubmit="saveForm(event)">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="city">Cidade:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="state">Estado:</label>
+      <input type="text" id="state" name="state" required>
+
+      <input type="submit" value="Enviar" class="cta-button">
+    </form>
+  </section>
+
+<footer>
+    <p>&copy; 2023 MVS Engenharia de Sistemas. Todos os direitos reservados.</p>
+</footer>
+<script src="script/form_manipulation.js"></script>
+
+</body>
+</html>
